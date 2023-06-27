@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Anomaly Detection with Keras in Time Series repo</title>
+  <title>ML Insurance webapp repo</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -114,22 +114,25 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Jupyter Notebook</li>
+                <li><strong>Category</strong>: Web app</li>
                 <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="https://github.com/mgonzaleyub/ml-insurance-webapp-flask" target="_blank">Anomaly Detection with Keras in Time Series repo</a></li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/mgonzaleyub/ml-insurance-webapp-flask" target="_blank">ML Insurance webapp repo</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>Anomaly Detection with Keras in Time Series</h2>
+              <h2>Machine Learning Insurance cost predictor WebApp</h2>
               <p>
-                In this notebook, I am performing an anomaly detection in time series data with Keras API in Python. Time series data is any kind of data which varies through time.
-
-                The dataset used is S&P500 Daily Prices 1986 - 2018. Features available are:
+                This web-app uses a machine-learning model to predict the medical cost bill by health insurance according to the following features:
                 <ul>
-                  <li>date: Date or timestamp is obligatory when processing time series.</li>
-                  <li>close: Daily Closing Prices for the SPY going from 1986 to 2018. Data not standarized.</li>
-                  <li>The format is similar to the following, in univariate time-series:</li>
+                  <li>age: age of primary beneficiary</li>
+                  <li>sex: insurance contractor gender: female, male</li>
+                  <li>bmi: Body mass index, providing an understanding of body, weights that are relatively high or low relative to height, objective index of body weight (kg / m ^ 2) using the ratio of height to weight, ideally 18.5 to 24.9</li>
+                  <li>children: Number of children covered by health insurance / Number of dependents</li>
+                  <li>smoker: Smoking (yes/no)</li>
+                  <li>region: the beneficiary's residential area in the US, northeast, southeast, southwest, northwest. The following form requires you to introduce the previous data to get a prediction. The AI that models this data is linear regression</li>
                 </ul>
+
+                Unfortunately, Heroku (the server which was deployed) shuts it down often because of inactivity.
               </p>
             </div>
           </div>
